@@ -1,5 +1,4 @@
 on: workflow_dispatch
-  push:
     branches-ignore:
       - "main"
 name: Build and Test on Push

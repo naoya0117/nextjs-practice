@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 127.0.0.1:7000:3000
+    tty: true
+    volumes:
+      - .:/app
+    command: sh -c "npm run dev"

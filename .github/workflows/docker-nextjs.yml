@@ -18,4 +18,4 @@ jobs:
         with:
           node-version: 16
       - name: Install Dependencies
-        run: docker compose up -d
+        run: docker compose up

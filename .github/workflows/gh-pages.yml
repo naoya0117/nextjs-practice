@@ -1,11 +1,7 @@
 name: github pages
 
 # masterブランチにプッシュしたときjobsに記述した操作を行う
-on:
-  push:
-    branches:
-    - master
-
+on: workflow_dispatch
 jobs:
   build-deploy:
     # ubuntu OS を仮想マシン上に用意する

@@ -12,7 +12,3 @@ export async function getStaticPaths() {
 export default function Post() {
     return <Layout>...</Layout>
 }
-
-export async function getStaticProps({params}) {
-    // Fetc necessary data for the blog post using params.id
-}

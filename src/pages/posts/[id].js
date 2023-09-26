@@ -12,3 +12,11 @@ export async function getStaticPaths() {
 export default function Post() {
     return <Layout>...</Layout>
 }
+
+export async function getStaticProps({ params }) {
+  return {
+    props: {
+      // props for your component
+    },
+  };
+}
